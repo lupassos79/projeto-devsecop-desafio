@@ -44,8 +44,8 @@ jobs:
       #   semgrep scan --config auto --config p/xss --error src/
       - name: 🔍 SAST - Semgrep
         run: |
-        pip install semgrep
-        semgrep scan --config auto --config p/xss --error src/
+          pip install semgrep
+          semgrep scan --config auto --config p/xss --error src/
         
 
       # ❌ PASSO A IMPLEMENTAR — SCA com Grype
